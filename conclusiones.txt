@@ -1,0 +1,13 @@
+La automatización con Cypress resultó sencilla y rápida de implementar.
+
+Se validaron los flujos críticos de compra en Demoblaze (agregar productos, verificar carrito y finalizar compra).
+
+Cypress permitió manejar alertas y formularios con facilidad.
+
+Mochawesome generó reportes claros con evidencia de cada paso.
+
+Se recomienda integrar esta prueba en un pipeline de CI/CD para validar el flujo de compra automáticamente en cada despliegue.
+
+yaml
+Copy
+Edit
