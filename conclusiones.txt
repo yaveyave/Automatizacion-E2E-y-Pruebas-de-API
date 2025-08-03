@@ -1,13 +1,14 @@
-La automatización con Cypress resultó sencilla y rápida de implementar.
+# CONCLUSIONES
 
-Se validaron los flujos críticos de compra en Demoblaze (agregar productos, verificar carrito y finalizar compra).
+Ejercicio 1 (E2E Demoblaze)
+- Cypress permite automatizar flujos E2E de forma rápida y con código sencillo.
+- Se validaron los pasos críticos del flujo de compra de Demoblaze: agregar productos, revisar el carrito y finalizar la compra.
+- Mochawesome genera reportes detallados con evidencia de cada paso, facilitando el seguimiento.
+- Se recomienda integrar estas pruebas en un pipeline de CI/CD para validar automáticamente el flujo de compra en cada despliegue.
 
-Cypress permitió manejar alertas y formularios con facilidad.
-
-Mochawesome generó reportes claros con evidencia de cada paso.
-
-Se recomienda integrar esta prueba en un pipeline de CI/CD para validar el flujo de compra automáticamente en cada despliegue.
-
-yaml
-Copy
-Edit
+Ejercicio 2 (API Petstore)
+- Cypress es útil no solo para pruebas E2E, sino también para pruebas de API.
+- Se validaron los endpoints principales de Petstore, separando los tests por endpoint para que el reporte evidencie fallos.
+- El reporte final muestra los endpoints que pasaron y los que fallaron, demostrando la inestabilidad del entorno público de la API.
+- Esta separación de pruebas facilita identificar rápidamente dónde está el problema.
+- Este enfoque es útil para entornos con dependencias externas, ya que muestra con claridad cuándo la falla proviene de la API y no de las pruebas automatizadas.

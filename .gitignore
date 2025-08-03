@@ -1,16 +1,11 @@
 # Dependencias
 node_modules/
 
-# Reportes generados
-mochawesome-report/
-reports/
-
 # Archivos de reportes automáticos
 mochawesome*.json
 report*.json
 
 # Videos y screenshots de Cypress
-cypress/screenshots/
 cypress/videos/
 
 # Archivos de sistema
